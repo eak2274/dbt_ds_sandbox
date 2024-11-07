@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: fct_orders
+    config:
+      schema: l3_consumption
+      materialized: table
+
+  - name: dim_customer_revenue
+    config:
+      schema: l3_consumption
+      materialized: table

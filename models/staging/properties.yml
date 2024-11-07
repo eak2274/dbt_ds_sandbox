@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: stg_customers
+    config:
+      schema: l2_processing
+
+  - name: stg_orders
+    config:
+      schema: l2_processing
+
+  - name: stg_order_items
+    config:
+      schema: l2_processing

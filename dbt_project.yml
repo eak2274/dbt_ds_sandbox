@@ -34,11 +34,4 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 models:
   pg_ds_proj:
-    # Config indicated by + and applies to all files under models/example/
-    staging:
-      stg_customers:
-        schema: l2_processing
-      stg_orders:
-        schema: l2_processing
-      stg_order_items:
-        schema: l2_processing
+    materialized: view
