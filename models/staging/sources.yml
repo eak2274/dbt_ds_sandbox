@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: landing
+    database: dbt_sd_sandbox
+    schema: l1_landing
+    tables:
+      - name: customers
+      - name: orders
+      - name: dates
+      - name: employees
+      - name: order_items
+      - name: products
+      - name: stores
+      - name: suppliers

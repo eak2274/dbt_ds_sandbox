@@ -12,4 +12,4 @@ SELECT
 	end status_num,
 	updated_at
 FROM 
-	l1_landing.orders
+	{{source('landing', 'orders')}}

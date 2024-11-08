@@ -10,4 +10,4 @@ SELECT
 	updated_at,
 	concat(first_name, ' ', last_name) as full_name
 FROM 
-	l1_landing.customers
+	{{source('landing', 'customers')}}

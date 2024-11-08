@@ -35,3 +35,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   pg_ds_proj:
     materialized: view
+
+# Настройка схемы по умолчанию для всех seed-таблиц  
+seeds:
+  +schema: l2_processing # Схема по умолчанию для всех таблиц

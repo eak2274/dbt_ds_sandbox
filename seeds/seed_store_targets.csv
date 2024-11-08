@@ -1,0 +1,21 @@
+store_id,store_name,order_cnt,revenue
+1,Downtown Chicago Store,9,1359000
+2,Manhattan Central,7,615000
+3,LA Downtown,5,366000
+4,Houston Main,5,501604.48
+5,Phoenix Central,9,1100012.48
+6,Philly Downtown,4,502383.82
+7,San Antonio Main,8,1031929.39
+8,San Diego Central,3,403994.74
+9,Dallas Downtown,7,357128.92
+10,San Jose Main,4,283000
+11,Austin Central,3,461470.72
+12,Jacksonville Main,7,1417836.49
+13,SF Downtown,6,1300669.00
+14,Indy Central,1,5161.66
+15,Columbus Main,9,2008249.68
+16,Fort Worth Downtown,8,1140286.82
+17,Charlotte Central,6,630284.27
+18,Detroit Main,6,799604.80
+19,El Paso Downtown,4,334786.66
+20,Seattle Central,8,1345403.69

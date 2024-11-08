@@ -7,4 +7,4 @@ SELECT
 	updated_at,
 	(quantity*unit_price) total_price
 FROM 
-	l1_landing.order_items
+	{{source('landing', 'order_items')}}
