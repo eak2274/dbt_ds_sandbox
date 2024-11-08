@@ -16,6 +16,8 @@ models:
           - not_null
       - name: first_name
         description: "First name of the customer"
+        data_tests:
+          - string_not_empty
       - name: last_name
         description: "Last name of the customer"
       - name: email
@@ -45,6 +47,11 @@ models:
         description: "Date the order was placed"
         data_tests:
           - not_null
+      - name: status
+        description: "Current status of an order"
+        data_tests:
+            - accepted_values:
+                values: ['Completed', 'Processing', 'Pending']
     config:
       schema: l2_processing
 

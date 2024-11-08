@@ -6,6 +6,11 @@ sources:
     schema: l1_landing
     tables:
       - name: customers
+        columns:
+          - name: customer_id
+            data_tests:
+              - unique
+              - not_null
       - name: orders
       - name: dates
       - name: employees
