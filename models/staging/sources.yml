@@ -6,6 +6,10 @@ sources:
     schema: l1_landing
     tables:
       - name: customers
+        freshness:
+          warn_after: {count: 24, period: hour}  # Предупреждение, если данные не обновлялись в течение 24 часов
+          error_after: {count: 48, period: hour}  # Ошибка, если данные не обновлялись в течение 48 часов
+        loaded_at_field: updated_at
         columns:
           - name: customer_id
             data_tests:
