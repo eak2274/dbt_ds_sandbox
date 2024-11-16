@@ -5,9 +5,6 @@
 name: 'pg_ds_proj'
 version: '1.0.0'
 
-# env-vars:
-#   VIRTUALENV_PATH: "..\dbt-venv"
-
 # This setting configures which "profile" dbt uses for this project.
 profile: 'pg_ds_proj'
 
